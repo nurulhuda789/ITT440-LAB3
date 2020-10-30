@@ -26,6 +26,6 @@ int main(void)
 
 void sigint_handler(int sig)
 {
-  printf("Jangan Kacau saya!!! \n");
+  printf("Jangan Kacau saya !!!!! \n");
 }
 
