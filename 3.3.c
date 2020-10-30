@@ -22,7 +22,7 @@ int main(void) {
   read(pipefds[0], &buffer, sizeof(buffer));
   printf("Done.\n\n");
 
-  printf("Number from pipe: %d\n", buffer);
+  printf("Number from pipe : %d\n", buffer);
 
   return EXIT_SUCCESS;
 }
